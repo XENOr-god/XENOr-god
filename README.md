@@ -1,16 +1,29 @@
-## Hi there 👋
+# XENØr
 
-<!--
-**XENOr-god/XENOr-god** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+XENØr is not a brand.  
+It is a system.
 
-Here are some ideas to get you started:
+We build verifiable architectures.  
+We design incentive flows that cannot lie.  
+We reduce trust to mathematics.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Terminal-first.  
+Audit-focused.  
+Protocol-native.
+
+Rust • Solidity • Deterministic systems design.
+
+---
+
+## Focus
+
+- Verifiable reward systems  
+- Percolation-based incentive models  
+- Cryptographic primitives  
+- Sovereign protocol infrastructure  
+
+---
+
+Trust minimized.  
+Verification maximized.  
+Infrastructure first.
