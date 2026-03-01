@@ -27,3 +27,9 @@ Rust • Solidity • Deterministic systems design.
 Trust minimized.  
 Verification maximized.  
 Infrastructure first.
+
+---
+
+## Current Direction
+
+Building XENØr core infrastructure and protocol-grade systems.
