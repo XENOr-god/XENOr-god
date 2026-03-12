@@ -1,29 +1,33 @@
 # XENØr
 
-XENØr is a terminal-first protocol research initiative.
+XENØr is a systems-focused project exploring deterministic execution, simulation-driven design, and verifiable incentives.
 
-We build verifiable architectures, deterministic systems, and auditable incentive flows.
+## core surfaces
 
-## Focus
+- **xenor-core**  
+  Core protocol and systems work in Rust.
 
-- verifiable reward systems
-- deterministic simulation infrastructure
-- cryptographic and protocol experiments
-- sovereign Rust-first architecture
+- **xenor-sim**  
+  Simulation and modeling environment for testing mechanism behavior before production decisions.
 
-## Repositories
+- **xenor-site**  
+  Public-facing site for the project, including ecosystem context and research direction.
 
-- [`xenor-core`](https://github.com/XENOr-god/xenor-core) — deterministic graph propagation and conservative reward routing engine
-- [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) — simulation playground for XENØr experiments
-- [`xenor-sale`](https://github.com/XENOr-god/xenor-sale) — archived Solana sale and launch experiments
+## design principles
 
-## Principles
+- deterministic systems
+- audit-first engineering
+- simulation before deployment
+- verifiable incentive design
+- clean public surfaces
 
-- Terminal-first
-- Audit-focused
-- Protocol-native
-- Verification maximized
+## archived work
 
-## Current direction
+- **xenor-sale**  
+  Earlier experimental sale infrastructure. Kept as archive/reference material, not the current primary surface.
 
-Building XENØr as a research and infrastructure ecosystem across Rust, simulation, and Solana-native experimentation.
+## links
+
+- Website: https://github.com/XENOr-god/xenor-site
+- Core: https://github.com/XENOr-god/xenor-core
+- Simulation: https://github.com/XENOr-god/xenor-sim
