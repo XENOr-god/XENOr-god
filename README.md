@@ -1,33 +1,28 @@
 # XENØr
 
-XENØr is a systems-focused project exploring deterministic execution, simulation-driven design, and verifiable incentives.
+XENØr is a protocol research stack focused on deterministic execution, simulation-led validation, and disciplined public release.
 
-## core surfaces
+## Focus
 
-- **xenor-core**  
-  Core protocol and systems work in Rust.
+- deterministic protocol logic
+- simulation-led validation
+- verifiable incentive flow
+- clear public surface
 
-- **xenor-sim**  
-  Simulation and modeling environment for testing mechanism behavior before production decisions.
+## Repositories
 
-- **xenor-site**  
-  Public-facing site for the project, including ecosystem context and research direction.
+- [`xenor-core`](https://github.com/XENOr-god/xenor-core) — deterministic execution and reward-routing engine in Rust
+- [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) — experiment and simulation runner for protocol behavior
+- [`xenor-site`](https://github.com/XENOr-god/xenor-site) — canonical public surface for architecture, repositories, contract context, and presence
+- [`xenor-sale`](https://github.com/XENOr-god/xenor-sale) — archived Solana sale prototype kept as a research record
 
-## design principles
+## Public Surface
 
-- deterministic systems
-- audit-first engineering
-- simulation before deployment
-- verifiable incentive design
-- clean public surfaces
+- Website: [`xenor-site`](https://github.com/XENOr-god/xenor-site) / `https://xenor-web.vercel.app`
+- GitHub: `https://github.com/XENOr-god`
 
-## archived work
+## Status
 
-- **xenor-sale**  
-  Earlier experimental sale infrastructure. Kept as archive/reference material, not the current primary surface.
+The active stack is `xenor-core`, `xenor-sim`, and `xenor-site`.
 
-## links
-
-- Website: https://github.com/XENOr-god/xenor-site
-- Core: https://github.com/XENOr-god/xenor-core
-- Simulation: https://github.com/XENOr-god/xenor-sim
+`xenor-sale` remains archived and is not the current launch path.
