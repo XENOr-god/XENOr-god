@@ -74,6 +74,11 @@ active vs experimental vs historical boundaries obvious.
 - [`xenor-sale`](https://github.com/XENOr-god/xenor-sale) — archived
   historical sale prototype
 
+## Contributing
+
+No standalone contributing guide is currently published in this repository.
+Use issues or pull requests directly for navigation or wording fixes.
+
 ## License
 
-This profile repository does not currently publish a separate license file.
+No standalone license file is currently published in this repository.
