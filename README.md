@@ -11,6 +11,7 @@ The current public stack is active, but not uniformly production-ready.
 
 - Active public surfaces: `xenor-site`, `xenor-core`, `xenor-sim`,
   `xenor-engine`
+- Experimental native lab: `xenor-native`
 - Archived historical repo: `xenor-sale`
 - Experimental and research-stage work is labeled in each repository README
 
@@ -20,13 +21,16 @@ The current public stack is active, but not uniformly production-ready.
    `https://xenor-site.vercel.app`
    The canonical public surface and the best first stop for newcomers.
 2. [`xenor-core`](https://github.com/XENOr-god/xenor-core)
-   The deterministic execution and protocol-systems layer.
+   The core logic layer.
 3. [`xenor-sim`](https://github.com/XENOr-god/xenor-sim)
-   The scenario and validation layer built around `xenor-core`.
+   The validation layer built around `xenor-core`.
 4. [`xenor-engine`](https://github.com/XENOr-god/xenor-engine)
-   The lower-level deterministic engine and replay/snapshot systems layer.
-5. [`xenor-sale`](https://github.com/XENOr-god/xenor-sale)
-   An archived Solana sale prototype kept only as historical research context.
+   The canonical deterministic substrate.
+5. [`xenor-native`](https://github.com/XENOr-god/xenor-native)
+   The experimental native lab for low-level incubation work that may later
+   graduate into `xenor-engine`.
+6. [`xenor-sale`](https://github.com/XENOr-god/xenor-sale)
+   Archived historical work kept only as launch research context.
 
 ## Why This Repo Exists
 
@@ -37,21 +41,23 @@ active vs experimental vs historical boundaries obvious.
 ## Relationship to the XENOr Stack
 
 - `xenor-site` is the canonical public surface
-- `xenor-core` is the deterministic execution/core systems layer
-- `xenor-sim` is the validation and scenario layer on top of `xenor-core`
-- `xenor-engine` is the deterministic engine substrate for tick/replay/snapshot
-  work
-- `xenor-sale` is historical only and not part of the active path
+- `xenor-core` is the core logic layer
+- `xenor-sim` is the validation layer on top of `xenor-core`
+- `xenor-engine` is the canonical deterministic substrate
+- `xenor-native` is the experimental native lab
+- `xenor-sale` is archived historical work and not part of the active path
 
 ## Quick Start
 
 - Open `https://xenor-site.vercel.app` first if you want the public overview.
 - Open [`xenor-core`](https://github.com/XENOr-god/xenor-core) next if you want
-  the main protocol-systems code.
+  the main protocol logic.
 - Open [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) if you want to see
-  how scenarios and validation runs are modeled around `xenor-core`.
+  how validation runs are modeled around `xenor-core`.
 - Open [`xenor-engine`](https://github.com/XENOr-god/xenor-engine) if you want
-  the reusable deterministic engine substrate and replay/snapshot work.
+  the canonical deterministic substrate and replay/snapshot work.
+- Open [`xenor-native`](https://github.com/XENOr-god/xenor-native) only if you
+  want the experimental native lab and low-level incubation work.
 
 ## Repository Boundaries
 
@@ -65,14 +71,14 @@ active vs experimental vs historical boundaries obvious.
 
 - [`xenor-site`](https://github.com/XENOr-god/xenor-site) — canonical public
   surface and first stop
-- [`xenor-core`](https://github.com/XENOr-god/xenor-core) — deterministic
-  execution/core systems layer
-- [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) — simulation and
-  validation layer
-- [`xenor-engine`](https://github.com/XENOr-god/xenor-engine) — deterministic
-  engine and replay/snapshot substrate
+- [`xenor-core`](https://github.com/XENOr-god/xenor-core) — core logic layer
+- [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) — validation layer
+- [`xenor-engine`](https://github.com/XENOr-god/xenor-engine) — canonical
+  deterministic substrate
+- [`xenor-native`](https://github.com/XENOr-god/xenor-native) — experimental
+  native lab
 - [`xenor-sale`](https://github.com/XENOr-god/xenor-sale) — archived
-  historical sale prototype
+  historical work
 
 ## Contributing
 
