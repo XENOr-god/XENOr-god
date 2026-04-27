@@ -18,7 +18,7 @@ The current public stack is active, but not uniformly production-ready.
 ## Start Here
 
 1. [`xenor-site`](https://github.com/XENOr-god/xenor-site) /
-   `https://xenor-site.vercel.app`
+   `https://https://xenor-web.vercel.app/`
    The canonical public surface and the best first stop for newcomers.
 2. [`xenor-core`](https://github.com/XENOr-god/xenor-core)
    The core logic layer.
@@ -49,7 +49,7 @@ active vs experimental vs historical boundaries obvious.
 
 ## Quick Start
 
-- Open `https://xenor-site.vercel.app` first if you want the public overview.
+- Open `https://https://xenor-web.vercel.app/` first if you want the public overview.
 - Open [`xenor-core`](https://github.com/XENOr-god/xenor-core) next if you want
   the main protocol logic.
 - Open [`xenor-sim`](https://github.com/XENOr-god/xenor-sim) if you want to see
