@@ -18,7 +18,7 @@ The current public stack is active, but not uniformly production-ready.
 ## Start Here
 
 1. [`xenor-site`](https://github.com/XENOr-god/xenor-site) /
-   `https://https://xenor-web.vercel.app/`
+   `xenor.xyz`
    The canonical public surface and the best first stop for newcomers.
 2. [`xenor-core`](https://github.com/XENOr-god/xenor-core)
    The core logic layer.
